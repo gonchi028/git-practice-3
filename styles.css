@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+li a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}
