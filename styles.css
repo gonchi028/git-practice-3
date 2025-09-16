@@ -27,3 +27,9 @@ li a:hover {
   color: #007BFF;
   text-decoration: underline;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
